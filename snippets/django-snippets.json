@@ -1,0 +1,277 @@
+{
+    "_comment" : "This section is autocomplete for django models",
+	"mauto": {
+		"prefix": "mauto",
+		"description": "AutoField (mauto) model field",
+		"body": [
+			"${FIELDNAME} = models.AutoField()"
+		]
+	},
+	"mbigint": {
+		"prefix": "mbigint",
+		"description": "BigIntegerField (mbigint) model field",
+		"body": [
+			"${FIELDNAME} = models.BigIntegerField()"
+		]
+	},
+	"mbool": {
+		"prefix": "mbool",
+		"description": "BooleanField (mbool) model field",
+		"body": [
+			"${FIELDNAME} = models.BooleanField()"
+		]
+	},
+	"mchar": {
+		"prefix": "mchar",
+		"description": "CharField (mchar) model field",
+		"body": [
+			"${FIELDNAME} = models.CharField(max_length=50)"
+		]
+	},
+	"mcoseint": {
+		"prefix": "mcoseint",
+		"description": "CommaSeparatedIntegerField (mcoseint) model field",
+		"body": [
+			"${FIELDNAME} = models.CommaSeparatedIntegerField()"
+		]
+	},
+	"mdate": {
+		"prefix": "mdate",
+		"description": "DateField (mdate) model field",
+		"body": [
+			"${FIELDNAME} = models.DateField()"
+		]
+	},
+	"mdatetime": {
+		"prefix": "mdatetime",
+		"description": "DateTimeField (mdatetime) model field",
+		"body": [
+			"${FIELDNAME} = models.DateTimeField()"
+		]
+	},
+	"mdecimal": {
+		"prefix": "mdecimal",
+		"description": "DecimalField (mdecimal) model field",
+		"body": [
+			"${FIELDNAME} = models.DecimalField(max_digits=5, decimal_places=2)"
+		]
+	},
+	"mduration": {
+		"prefix": "mduration",
+		"description": "DurationField (mduration) model field",
+		"body": [
+			"${FIELDNAME} = models.DurationField()"
+		]
+	},
+	"memail": {
+		"prefix": "memail",
+		"description": "EmailField (memail) model field",
+		"body": [
+			"${FIELDNAME} = models.EmailField()"
+		]
+	},
+	"mfile": {
+		"prefix": "mfile",
+		"description": "FileField (mfile) model field",
+		"body": [
+			"${FIELDNAME} = models.FileField()"
+		]
+	},
+	"mfilepath": {
+		"prefix": "mfilepath",
+		"description": "FilePathField (mfilepath) model field",
+		"body": [
+			"${FIELDNAME} = models.FilePathField()"
+		]
+	},
+	"mfloat": {
+		"prefix": "mfloat",
+		"description": " (mfloat) model field",
+		"body": [
+			"${FIELDNAME} = models.FloatField()"
+		]
+	},
+	"mimg": {
+		"prefix": "mimg",
+		"description": "ImageField (mimg) model field",
+		"body": [
+			"${FIELDNAME} = models.ImageField()"
+		]
+	},
+	"mint": {
+		"prefix": "mint",
+		"description": "IntegerField (mint) model field",
+		"body": [
+			"${FIELDNAME} = models.IntegerField()"
+		]
+	},
+	"mip": {
+		"prefix": "mip",
+		"description": "IPAddressField (mip) model field",
+		"body": [
+			"${FIELDNAME} = models.IPAddressField()"
+		]
+	},
+	"mnullbool": {
+		"prefix": "mnullbool",
+		"description": "NullBooleanField (mnullbool) model field",
+		"body": [
+			"${FIELDNAME} = models.NullBooleanField()"
+		]
+	},
+	"mphone": {
+		"prefix": "mphone",
+		"description": "PhoneNumberField (mphone) model field",
+		"body": [
+			"${FIELDNAME} = models.PhoneNumberField()"
+		]
+	},
+	"mposint": {
+		"prefix": "mposint",
+		"description": "PositiveIntegerField (mposint) model field",
+		"body": [
+			"${FIELDNAME} = models.PositiveIntegerField()"
+		]
+	},
+	"mpossmallint": {
+		"prefix": "mpossmallint",
+		"description": "PositiveSmallIntegerField (mpossmallint) model field",
+		"body": [
+			"${FIELDNAME} = models.PositiveSmallIntegerField()"
+		]
+	},
+	"mslug": {
+		"prefix": "mslug",
+		"description": "SlugField (mslug) model Field",
+		"body": [
+			"${FIELDNAME} = models.SlugField()"
+		]
+	},
+	"msmallint": {
+		"prefix": "msmallint",
+		"description": "SmallIntegerField (msmallint) model field",
+		"body": [
+			"${FIELDNAME} = models.SmallIntegerField()"
+		]
+	},
+	"mtext": {
+		"prefix": "mtext",
+		"description": "TextField (mtext) model field",
+		"body": [
+			"${FIELDNAME} = models.TextField()"
+		]
+	},
+	"mtime": {
+		"prefix": "mtime",
+		"description": "TimeField (mtime) model field",
+		"body": [
+			"${FIELDNAME} = models.TimeField()"
+		]
+	},
+	"murl": {
+		"prefix": "murl",
+		"description": "URLField (murl) model field",
+		"body": [
+			"${FIELDNAME} = models.URLField()"
+		]
+	},
+	"musstate": {
+		"prefix": "musstate",
+		"description": "USStateField (musstate) model field",
+		"body": [
+			"${FIELDNAME} = models.USStateField()"
+		]
+	},
+	"mxml": {
+		"prefix": "mxml",
+		"description": "XMLField (mxml) model field",
+		"body": [
+			"${FIELDNAME} = models.XMLField()"
+		]
+	},
+	"fk": {
+		"prefix": "fk",
+		"description": "ForeignKey (fk) model field",
+		"body": [
+			"${FIELDNAME} = models.ForeignKey('${FKNAME}', on_delete=models.CASCADE)"
+		]
+	},
+	"m2m": {
+		"prefix": "m2m",
+		"description": "ManyToManyField (m2m) model field",
+		"body": [
+			"${FIELDNAME} = models.ManyToManyField()"
+		]
+	},
+	"o2o": {
+		"prefix": "o2o",
+		"description": "OneToOneField (o2o) model field",
+		"body": [
+			"${FIELDNAME} = models.OneToOneField()"
+		]
+	},
+
+	"_comment" : "Snippets for Django Rest Framework",
+
+	"mserializer": {
+		"prefix": "mserializer",
+		"description": "ModelSerializer (mserializer) Rest Framework",
+		"body": [
+			"class ${ModelName}Serializer(serializers.ModelSerializer):",
+			"",
+			"	class Meta:",
+			"		model = ${ModelName}",
+			"		fields = '__all__'"
+		]
+	},
+	"mviewset": {
+		"prefix": "mviewset",
+		"description": "ModelViewSet (mviewset) Rest Framework",
+		"body": [
+			"class ${ModelName}ViewSet(viewsets.ModelViewSet):",
+			"",
+    		"	queryset = ${ModelName}.objects.all()",
+    		"	serializer_class = ${ModelName}Serializer"
+		]
+	},
+	"ronlymviewset": {
+		"prefix": "ronlymviewset",
+		"description": "ReadOnlyModelViewSet (ronlymviewset) Rest Framework",
+		"body": [
+			"class ${ModelName}ViewSet(viewsets.ReadOnlyModelViewSet):",
+			"",
+    		"	queryset = ${ModelName}.objects.all()",
+    		"	serializer_class = ${ModelName}Serializer"
+		]
+	},
+
+	"_comment" : "Section of Abbreviation snippets",
+
+	"Model": {
+		"prefix": "Model",
+		"description": "models.Model (Model) Class Model of Django",
+		"body": [
+			"class ${ModelName}(models.Model):",
+    		"",
+			"	def __str__(self):",
+        	"		pass",
+			"",
+			"	class Meta:",
+			"		db_table = ''",
+      		"		managed = True",
+        	"		verbose_name = '${ModelName}'",
+			"		verbose_name_plural = '${ModelName}s'"
+		]
+	},
+	"Meta": {
+		"prefix": "Meta",
+		"description": "Meta (Meta) Meta Class of Model",
+		"body": [
+			"class Meta:",
+			"	db_table = ''",
+      		"	managed = True",
+        	"	verbose_name = '${ModelName}'",
+			"	verbose_name_plural = '${ModelName}s'"
+		]
+	}
+}
