@@ -70,6 +70,56 @@ or, more simple
 | staticu      | `{{ STATIC_URL }}`                                 |
 | media        | `{{ MEDIA_URL }}`                                  |
 
+
+## Snippets for Django Form 
+
+|  Abbreviation  |  Type  |                        Code - Description                         |
+| -------------- | ------ | ----------------------------------------------------------------- |
+| Form           | class  | ``Form(with TODOs)``                                              |
+| ModelForm      | class  | ``ModelFom``                                                      |
+| fbool          | field  | ``forms.BooleanField()``                                          |
+| fchar          | field  | ``forms.CharField()``                                             |
+| fchoice        | field  | ``forms.ChoiceField()``                                           |
+| fcombo         | field  | ``forms.ComboField()``                                            |
+| fdate          | field  | ``forms.DateField()``                                             |
+| fdatetime      | field  | ``forms.DateTime()``                                              |
+| fdecimal       | field  | ``forms.DecimalField()``                                          |
+| fduration      | field  | ``forms.DurationField()``                                         |
+| femail         | field  | ``forms.EmailField()``                                            |
+| ffile          | field  | ``forms.FileField()``                                             |
+| ffilepath      | field  | ``forms.FilePathField()``                                         |
+| ffloat         | field  | ``forms.FloatField()``                                            |
+| fimg           | field  | ``forms.ImageField()``                                            |
+| fint           | field  | ``forms.IntegerField()``                                          |
+| fip            | field  | ``forms.IPAddressField() - deprecated since version 1.7 ``        |
+| fgenericip     | field  | ``forms.GenericIPAddressField()``                                 |
+| fmochoice      | field  | ``forms.ModelChoiceField()``                                      |
+| fmomuchoice    | field  | ``forms.ModelMultipleChoiceField()``                              |
+| fmuchoice      | field  | ``forms.MultipleChoiceField()``                                   |
+| ftypedmuchoice | field  | ``forms.TypedMultipleChoiceField()``                              |
+| fmuval         | field  | ``forms.MultipleValueField()``                                    |
+| fnullbool      | field  | ``forms.NullBooleanField()``                                      |
+| fregex         | field  | ``forms.RegexField()``                                            |
+| fslug          | field  | ``forms.SlugField()``                                             |
+| fsdatetime     | field  | ``forms.SplitDateTime()``                                         |
+| ftime          | field  | ``forms.TimeField()``                                             |
+| ftchoice       | field  | ``forms.TypedChoiceField()``                                      |
+| ftmuchoice     | field  | ``forms.TypedMultipleChoiceField()``                              |
+| furl           | field  | ``forms.URLField()``                                              |
+| fuuid          | field  | ``forms.UUIDField()``                                             |
+| fsimplearray   | field  | ``SimpleArrayField() - PostgreSQL specific form field``           |
+| fsplitarray    | field  | ``SplitArrayField() - PostgreSQL specific form field``            |
+| fhstore        | field  | ``HStoreField() - PostgreSQL specific form field``                |
+| fjson          | field  | ``JSONField() - PostgreSQL specific form field``                  |
+| fintrange      | field  | ``IntegerRangeField() - PostgreSQL specific form field``          |
+| ffloatrange    | field  | ``FloatRangeField() - PostgreSQL specific form field``            |
+| fdatetimerange | field  | ``DateTimeRangeField() - PostgreSQL specific form field``         |
+| fdaterange     | field  | ``DateRangeField() - PostgreSQL specific form field``             |
+| ffi            | import | ``from .forms import <local_forms>``                         |
+| iforms         | import | ``from django import forms``                                      |
+| ipostgresff    | import | ``from django.contrib.postgres.forms import <PostgresSQL_forms>`` |
+| clean_data     | method | ``validate form data``                                            |
+
 ## Snippets for Django model fields
 
 | Abbreviation |                     Tag                            |
