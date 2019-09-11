@@ -3,17 +3,17 @@
     "displayName": "Django",
     "description": "Django Templates and Backend snippets",
     "version": "1.0.0",
-    "publisher": "bigonesystems",
+    "publisher": "rbtsolis",
     "icon": "icon.png",
-    "homepage": "https://gitlab.com/bigone.systems/django-vscode/blob/master/README.md",
+    "homepage": "https://github.com/rbtsolis/django-vscode/blob/master/README.md",
     "license": "LICENSE",
     "repository": {
         "type": "git",
-        "url": "https://gitlab.com/bigone.systems/django-vscode.git"
+        "url": "https://github.com/rbtsolis/django-vscode"
     },
     "bugs": {
-        "url": "https://gitlab.com/bigone.systems/django-vscode/issues",
-        "email": "django-vscode@bigone.systems"
+        "url": "https://github.com/rbtsolis/django-vscode/issues",
+        "email": "roberth.solis@gmail.com"
     },
     "engines": {
         "vscode": "^1.0.0"
