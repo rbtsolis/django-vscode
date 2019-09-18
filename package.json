@@ -1,45 +1,60 @@
 {
-    "name": "django",
-    "displayName": "Django",
-    "description": "Django Templates and Backend snippets",
-    "version": "1.0.0",
-    "publisher": "rbtsolis",
-    "icon": "icon.png",
-    "homepage": "https://github.com/rbtsolis/django-vscode/blob/master/README.md",
-    "license": "LICENSE",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rbtsolis/django-vscode"
-    },
-    "bugs": {
-        "url": "https://github.com/rbtsolis/django-vscode/issues",
-        "email": "roberth.solis@gmail.com"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "django", "django templates", "django syntax", "django rest framework"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "python",
-                "path": "./snippets/django-snippets.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/django-templates.json"
-            }
-        ]
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install"
-    },
-    "devDependencies": {
-        "vscode": "^0.11.0"
-    }
+  "name": "django",
+  "displayName": "Django",
+  "description": "Django Templates and Backend snippets",
+  "version": "1.0.1",
+  "publisher": "rbtsolis",
+  "icon": "icon.png",
+  "homepage": "https://github.com/rbtsolis/django-vscode/blob/master/README.md",
+  "license": "LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbtsolis/django-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/rbtsolis/django-vscode/issues",
+    "email": "roberth.solis@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "django", "django templates", "django syntax", "django rest framework"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "django-html",
+      "aliases": [
+        "Django Template",
+        "Django HTML",
+        "django"
+      ],
+      "firstLine": "{%",
+      "extensions": [".html", ".htm"],
+      "configuration": "./django-html.configuration.json"
+    }],
+    "grammars": [{
+      "language": "django-html",
+      "scopeName": "text.html.django",
+      "path": "./syntaxes/django-html.json"
+    }],
+    "snippets": [{
+        "language": "python",
+        "path": "./snippets/django-snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/django-templates.json"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "vscode": "^0.11.0"
+  }
 }
