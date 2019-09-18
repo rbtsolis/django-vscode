@@ -2,7 +2,7 @@
   "name": "django",
   "displayName": "Django",
   "description": "Django Templates and Backend snippets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "rbtsolis",
   "icon": "icon.png",
   "homepage": "https://github.com/rbtsolis/django-vscode/blob/master/README.md",
